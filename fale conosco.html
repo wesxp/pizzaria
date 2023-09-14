@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Fale Conosco</title>
+ <meta charset="UTF-8">
+ <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+ <style type="text/css">
+
+ body{
+ background-image: url("pizza-115.gif.webp");
+ background-size: 100px;
+ align-items: center;
+ }
+ main{
+ background: #eadac0;
+ width: 70%;
+ margin: 0 auto;
+ padding: 20px;
+ display: block;
+ border-radius: 3px;
+ }
+ label{
+ display: block;
+ margin-top: 15px
+ }
+ .full{
+ width: 100%
+ }
+ .altura{
+ height: 300px
+ }
+ .logo{
+    display: flex;
+    justify-content: center;
+ }
+ div{
+    display: flex;
+    justify-content: center;
+ }
+h1{
+    text-align: center;
+    font-family: garamond;
+    
+}
+ </style>
+</head>
+<body>
+    
+ <main>
+     <h1>FALE CONOSCO</h1>
+    <div class="logo"><img src="png da logo (2).png" width="150px"></div>
+ <form method="get" action="envia.php">
+     <label for="nome">Nome Completo:</label>
+ <input class="full" type="text" id="nome" name="nome" placeholder="Seu nome ..." required>
+ <br>
+ <label for="email">E-mail:</label>
+ <input class="full" type="email" id="email" name="email" required>
+ <br>
+ <label for="mensagem">Digite sua mensagem:</label>
+ <textarea class="full altura" id="mensagem" name="mensagem" autofocus>Nos conte como foi a sua experiência...
+ </textarea>
+ <br><br>
+ <input type="submit" value="Enviar">
+ <input type="reset" value="Limpar">
+ </form>
+ <div><a href="index.html"><img src="kisspng-creative-commons-license-creative-work-free-conten-back-arrow-5aaffdb7ef9005.6285466715214831919813.png" alt=""></a></div>
+ 
+ </main>
+</body>
+</html>

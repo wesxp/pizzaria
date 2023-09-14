@@ -1,0 +1,284 @@
+@charset "UTF-8";
+
+*{
+    font-weight: normal;
+}
+html {
+    scroll-behavior: smooth;
+}
+header{
+    background-color: black;
+    background-image: url(forno-a-lenha-para-uma-deliciosa-pizza.jpg);
+    background-attachment:scroll;
+    background-position: left center ;
+    background-size: cover;
+    width: auto;
+    min-height: auto;
+    margin:-9px -8px -30px ;
+    padding: 9px;
+    box-shadow:1px 0px 4px 0px black;
+    
+}
+.delivery {
+    background-color:#c32105;
+    width: auto;
+    margin:-9px -8px -30px ;
+    padding: 9px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+.delivery > p,a{
+    text-align: left;
+    text-decoration: none;
+    color: aliceblue;
+}
+.logo{
+    width: 157px;
+    height: 185px;
+    margin:38px auto;
+    padding: 75px;
+    background-color: rgba(255, 255, 255, 0);
+    background-image: url(png\ da\ logo\ \(2\).png);
+    background-position: center center;
+    background-size: cover;
+
+
+}
+.titulo{
+    color:white;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 90px;
+    
+}
+nav{
+    text-align: center;
+    
+}
+nav > a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-style: bold;
+    font-size: 19px;
+    text-decoration: none;
+    padding: 10px;
+}
+nav > a:hover{
+    color: rgba(255, 255, 0, 0.897);
+    text-decoration:none;
+}
+main{
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px 0px 24px 24px ;
+    min-width:320px;
+    max-width: 947px;
+    margin: 30px auto;
+}
+.chamada{
+    background-color: #770005;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    border-radius:0px 0px 23px 23px ;
+    
+
+    
+}
+.chamada1>p{
+    font-size: larger;
+    margin: 0;
+
+}
+.chamada1{
+    width: 512px;
+    height: 113px;
+    padding-top: 2px;
+}
+.botão{
+    background-color: #000000;;
+    font-size:13px;
+    text-transform: uppercase;
+    width: 163px;
+    height: 34px;
+    border: none;
+    border-radius: 4px;
+    padding: 5px;
+    cursor: pointer;
+    margin: auto;
+    margin-top: 5px; 
+    transition: 1.2s;
+}
+.botão > p{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin: 0;
+}
+.botão:hover{
+    transform: scale3d(1.1,1.1,1);
+}
+.container4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+body{
+    background-color:#eadac0;
+    
+    color: white;
+}
+footer{
+    background-color: rgba(0, 0, 0, 0.403);
+    background-image:url(imagens/269.jpg);
+    margin: auto;
+    height: 360px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    
+}
+.mapa{
+    height: 100%;
+    width: 100%;
+    
+}
+header p{
+    text-align:center;
+}
+.mapa > iframe{
+    height: auto;
+   
+}
+.bem-vidos> p {
+    font-size: 23px;
+}
+p{
+    color: white;
+}
+h1{
+    font-size: 30px;
+}
+h2{
+    text-align: center;
+    color: white;
+}
+.container{
+    display:flex;
+    
+    justify-content: space-evenly;
+}
+.horario{
+    width: 300px;
+    color: black;
+    font-size: 10px;
+    color: white;
+}
+
+ul{
+    width: 100px;
+    margin: auto;
+    padding: 10px;
+    font-size: 10px;
+    text-align: center;
+
+   
+}
+ul > li{
+    text-align: center;
+    font-size: 12px;
+    color: white;
+}
+.endereco{
+    color: black;
+    width: 200px;
+    
+    
+}
+.telefone{
+    color: black;
+}
+.container2{
+    background-color:#807e2a;
+    background-image: url(imagens/4464061.jpg);
+    background-attachment: fixed;
+    background-position: left;
+    background-position: left center;
+    background-size: cover;
+    height:300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.container3{
+    background-color: #770005;
+}
+h1,p{
+    text-align: center;
+}
+.grid{
+    width: 300px;
+    height: 286px;
+    background-color: black;
+    background-image: url(imagens/Beige\ Minimalist\ Collage\ Instagram\ Post.png);
+    background-position: center;
+    background-repeat: none;
+    background-size:cover;
+    
+    
+}
+.descrição-promo {
+    color: black;
+    width: 300px;
+    text-align: center;
+}
+.descrição-promo > p{
+    color: white;
+}
+.divcard{
+    display: flex;
+    justify-content: space-around;   
+}
+.card{
+    background-color:rgb(255, 255, 255) ;
+    margin-bottom: 13px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8.18px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 6px black;
+    width: 180px;
+    height: 250px;
+transition: 1.2s;}
+.card >img{
+    width: 100%;
+    height: 130px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    
+}
+.card >h1{
+    margin:0;
+    font-size: .9em;
+}
+.card >p{
+    font-size: 0.5em;
+    color: black;
+}
+a> button{
+    background-color: #eadac0;;
+    font-size: 0.5em;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 2px;
+    padding: 5px;
+    cursor: pointer;
+}
+.card:hover{
+    transform:scale3d(1.1,1.1,1);    
+}
+
+
